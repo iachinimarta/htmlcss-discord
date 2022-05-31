@@ -173,6 +173,7 @@ main section {
     width: 30%;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .full-column {
@@ -180,13 +181,14 @@ main section {
     width: 100%;
 }
 
-.big-column .item1 {
+.big-column img {
     align-self: center;
     width: 100%;
 }
 
 .small-column h1 {
     font-size: 3rem;
+    margin-bottom: 30px;
 }
 
 /* FINE MAIN */

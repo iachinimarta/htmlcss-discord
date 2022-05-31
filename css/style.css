@@ -10,10 +10,10 @@
 .debug .col {
     border: dotted 2px black;
 }
-
+/* 
 .debug header .topbar > div {
     background-color: gold;
-}
+} */
 
 .debug #jumbotron {
     background-color: darkblue;
@@ -65,13 +65,16 @@
 }
 
 
-
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, sans-serif, Arial;
+}
 
 
 /* HEADER */
 header {
-    background-color: lightblue;
-    height: 585px;
+    background-color: #255ee9;
+    height: 580px;
+    color: white;
 }
 
 header .topbar {
@@ -82,8 +85,12 @@ header .topbar {
     align-items: center;
 }
 
-header .topbar > div {
+/* header .topbar > div {
     padding: 10px;
+} */
+
+header .logo img {
+    width: 50%;
 }
 
 header .logo, header .login {
@@ -104,20 +111,33 @@ header .link li {
     padding: 0 5px;
 }
 
+header li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
 header .login {
     text-align: right;
+}
+
+header .login button {
+    background-color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
 }
 
 #jumbotron {
     height: 500px;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
-#jumbotron .content {
+#jumbotron img {
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 /* FINE HEADER */
 

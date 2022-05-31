@@ -133,6 +133,7 @@ header .login button {
     display: flex;
     justify-content: center;
     background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
 }
 
 .content{
@@ -165,10 +166,15 @@ header .login button {
     border: none;
     border-radius: 20px;
 }
+.button i {
+    width: 5%;
+    margin-right: 3px;
+}
 
 .button .black {
     background-color: black;
     color: white;
+    margin-left: 10px;
 }
 /* FINE HEADER */
 
@@ -241,7 +247,7 @@ main section {
     margin-bottom: 0;
 }
 
-.full-column h3 {
+.full-column h2 {
     width: 50%;
     height: 6%;
     background-image: url(../img/stars.svg);

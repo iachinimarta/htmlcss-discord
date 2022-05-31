@@ -7,9 +7,9 @@
 
 
 /* INIZIO REGOLE DI DEBUG */
-.debug .col {
+/* .debug .col {
     border: dotted 2px black;
-}
+} */
 /* 
 .debug header .topbar > div {
     background-color: gold;
@@ -43,26 +43,26 @@
     background-color: green;
 } */
 
-.debug .footer-top {
+/* .debug .footer-top {
     height: 200px;
-}
+} */
 
-.debug .main-column {
+/* .debug .main-column {
     background-color: lightcoral;
-}
+} */
 
-.debug .footer-top .menu-column .col{
+/* .debug .footer-top .menu-column .col{
   border: dotted 2px white;
   background-color: lightseagreen;
-}
-
+} */
+/* 
 .debug .footer-bottom {
     background-color: aquamarine;
 }
 
 .debug .footer-bottom .col {
     background-color: pink;
-}
+} */
 
 
 body {
@@ -248,11 +248,11 @@ main section {
 }
 
 .full-column h2 {
+    font-size: 2rem;
     width: 50%;
-    height: 6%;
     background-image: url(../img/stars.svg);
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -285,12 +285,15 @@ footer {
 }
 
 .footer-top .main-column {
+    color: white;
     width: 25%;
+    margin-top: 40px;
 }
 
 .footer-top .menu-column {
     width: 75%;
     display: flex;
+    margin-top: 40px;
 
     /* regola per spaziare i quadrati in futuro se serve⁄ */
     justify-content: space-between;
@@ -305,7 +308,7 @@ footer {
     margin: 0 auto;
     display: flex;
     height: 80px;
-    margin: 50px auto 0;
+    /* margin: 50px auto 0; */
     align-items: center;
 
     /* regola per spaziare i quadrati in futuro se serve⁄ */
@@ -317,4 +320,49 @@ footer {
     padding: 10px;
 }
 
+.main-column h2{
+   margin-bottom: 20px;
+   color: #7289da;
+}
+.main-column img {
+    width: 10%;
+    margin-right: 5px;
+}
 
+.main-column .icone {
+    margin-top: 20px;
+}
+
+.main-column .icone i {
+    width: 25px;
+}
+
+.menu-column div {
+    padding-left: 20px;
+}
+
+.menu-column h3 {
+    color: #7289da;;
+}
+
+.menu-column li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.menu-column li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer hr {
+    color: #7289da;
+}
+
+.registrati {
+    background-color: #7289da;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}

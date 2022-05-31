@@ -15,13 +15,13 @@
     background-color: gold;
 } */
 
-.debug #jumbotron {
+/* .debug #jumbotron {
     background-color: darkblue;
-}
+} */
 
-.debug #jumbotron .content {
+/* .debug #jumbotron .content {
     background-color: violet;
-}
+} */
 
 .debug main section {
     height: 600px;
@@ -31,13 +31,13 @@
     height: 1000px;
 }
 
-.debug .big-column {
+/* .debug .big-column {
     background-color: dodgerblue;
-}
+} */
 
-.debug .small-column {
+/* .debug .small-column {
     background-color: pink;
-}
+} */
 
 .debug .full-column {
     background-color: green;
@@ -160,21 +160,35 @@ main section {
     display: flex;
 
     /* regola per spaziare i quadrati in futuro se serve⁄ */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .big-column {
     width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 .small-column {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .full-column {
     height: 100%;
     width: 100%;
 }
+
+.big-column .item1 {
+    align-self: center;
+    width: 100%;
+}
+
+.small-column h1 {
+    font-size: 3rem;
+}
+
 /* FINE MAIN */
 
 
